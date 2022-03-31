@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="C:\Users\nando\Desktop\Jogo da memoria\assets\styles\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Memória</title>                                                      
+</head>
+<body>
+    <div class="title">
+        <h3>Jogo da Memória</h3>
+        <h2>Clique nos cards para ver minhas skills
+            
+        </h2>
+    </div>
+    <div class="memory-game">
+        <div class="card" data-card="bootstrap">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\bootstrap.png" alt="bootstrap">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="javascript">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\javascript.png" alt="javascript">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="html">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\html.png" alt="html">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="css">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\css.png" alt="css">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="nodejs">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\nodejs.png" alt="nodejs">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="react">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\reactjs.png" alt="reactjs">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="bootstrap">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\bootstrap.png" alt="bootstrap">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="javascript">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\javascript.png" alt="javascript">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="html">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\html.png" alt="html">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="css">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\css.png" alt="css">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="nodejs">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\nodejs.png" alt="nodejs">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <div class="card" data-card="react">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\reactjs.png" alt="reactjs">
+            <span class="card-back">&lt/&gt</span>
+        </div>
+        <!-- <div class="card" data-card="mongo">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\mongo.png">
+            <span class="card-back">&lt/&gt</span>                                                                  
+        </div>
+        <div class="card" data-card="firebase">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\firebase.png">
+            <span class="card-back">&lt/&gt</span>                                                                                                                           
+        </div>
+        <div class="card" data-card="electron">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\electron.png">
+            <span class="card-back">&lt/&gt</span>                                                                                                                                                 
+        </div>
+        <div class="card" data-card="jquery">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\jquery.jpg">
+            <span class="card-back">&lt/&gt</span>                                                                                                                           
+        </div>
+        <div class="card" data-card="mongo">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\mongo.png">
+            <span class="card-back">&lt/&gt</span>                                                                  
+        </div>
+        <div class="card" data-card="firebase">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\firebase.png">
+            <span class="card-back">&lt/&gt</span>                                                                                                                           
+        </div>
+        <div class="card" data-card="electron">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\electron.png">
+            <span class="card-back">&lt/&gt</span>                                                                                                                                                 
+        </div>
+        <div class="card" data-card="jquery">
+            <img class="card-front" src="C:\Users\nando\Desktop\Jogo da memoria\assets\imagens\jquery.jpg">
+            <span class="card-back">&lt/&gt</span>                                                                                                                           
+        </div> -->
+    </div>                        
+  
+   
+
+    <div id="gameOver">
+        <div>End of the Game!</div>
+        <button id="restart" onclick="restart(this)">Replay skills</button>
+    </div>                                                                          
+
+
+    <script src="C:\Users\nando\Desktop\Jogo da memoria\assets\scripts\script.js"></script>
+    <script src="C:\Users\nando\Desktop\Jogo da memoria\assets\scripts\memorygame.js"></script>
+</body>                                                                                                                                                                                                                                                                                                                                                                                      
+</html>                                                                                             
